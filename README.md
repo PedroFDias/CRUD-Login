@@ -1,2 +1,22 @@
-# CRUD-Login
-Sistema de autenticação com CRUD para gerenciamento de usuários. O app permite registrar, autenticar e atualizar dados dos usuários, usando MySQL como banco de dados e protegendo senhas com password_hash. Um projeto simples e seguro para implementar login e gerenciamento de usuários.
+# Sistema de Autenticação com CRUD
+
+Este é um sistema de autenticação com funcionalidades CRUD (Criar, Ler, Atualizar, Deletar) para o gerenciamento de usuários. Utiliza um banco de dados MySQL e implementa boas práticas de segurança, como o uso de `password_hash` para proteger as senhas.
+
+## Funcionalidades
+
+- **Registro de Usuários:** Permite que novos usuários criem uma conta.
+- **Login e Autenticação:** Sistema seguro de login para usuários registrados.
+- **Gerenciamento de Perfil:** Permite que usuários atualizem suas informações.
+- **Exclusão de Conta:** Usuários podem deletar suas contas.
+- **CRUD Completo:** Administra dados dos usuários no banco de dados.
+
+## Tecnologias Utilizadas
+
+- **Backend:** PHP (ou outra linguagem, se aplicável)
+- **Banco de Dados:** MySQL
+- **Segurança:** `password_hash` para proteção de senhas
+
+## Pré-requisitos
+
+- PHP 7.4+ (ou a versão usada no seu projeto)
+- MySQL
