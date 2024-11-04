@@ -1,0 +1,12 @@
+#Editar{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+#Editar > #form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
