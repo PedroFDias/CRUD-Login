@@ -39,11 +39,11 @@ if(isset($_POST['update_usuario'])){
     
     if(mysqli_affected_rows($conexao) >0){
         $_SESSION['mensagem'] = 'Usuário atualizado com sucesso!';
-        header('Location: index.php');
+        header('Location: view.php');
         exit;
     }else{
         $_SESSION['mensagem'] = 'Usuário não atualizado!';
-        header('Location: index.php');
+        header('Location: view.php');
         exit;
     }
 }

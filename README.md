@@ -1,5 +1,4 @@
-# Sistema de Autenticação com CRUD
-
+# Sistema de Autenticação
 Este é um sistema de autenticação com funcionalidades CRUD (Criar, Ler, Atualizar, Deletar) para o gerenciamento de usuários. Utiliza um banco de dados MySQL e implementa boas práticas de segurança, como o uso de `password_hash` para proteger as senhas.
 
 ## Funcionalidades
